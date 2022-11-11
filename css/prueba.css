@@ -1,0 +1,91 @@
+.cjas
+{
+	height: 410px;
+	width: 50%;
+	border:2px solid #000;
+	margin: 90px auto;
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+
+.caja
+{
+	margin: 2px 4px;
+	min-width: 200px;
+	min-height: 200px;
+	flex:1;
+	text-align: center;
+
+
+}
+.texto
+{
+	margin: auto;
+}
+.caja p
+{
+	width: 94%;
+	margin: auto;
+	color: #021f54;
+	padding: 2px 18px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+	border:2px solid #937;
+}
+
+.caja h3
+{
+	padding: 0;
+	margin: 6px;
+	color: #947
+}
+.caja-img1
+{
+	background-image: url(https://www.labsaenzrenauld.com/wp-content/uploads/2020/10/Perfil-hombre-ba%CC%81sico_738242395.jpg);
+	background-size: cover;
+}
+
+.caja-img3
+{
+	background-image: url(https://i.pinimg.com/474x/83/0c/54/830c54eb607114bcd483a24f70f6d013.jpg);
+	background-size: cover;
+}
+
+.caja-img2
+{
+	background-image: url(https://img.freepik.com/foto-gratis/mujer-joven-negocios-mirando-camara-oficina_1301-6547.jpg?w=2000);
+	background-size: cover;
+}
+
+.caja-img4
+{
+	background-image: url(https://www.diariodecuyo.com.ar/__export/1646227812268/sites/diariodecuyo/img/2022/03/02/genero_crop1646227811435.jpg);
+	background-size: cover;
+}
+
+.ayuda
+{
+	display: inline-block;
+	border-radius: 50%;
+	height: auto;
+	padding: 20px 25px;
+	background: rgba(60,60,60,0.8);
+	position: fixed;
+	top: 460px;
+	left: 93%;
+	z-index: 10;
+}
+
+.icon-ayuda
+{
+	font-size: 25px;
+	color: #fff;
+}
+
+.icon-ayuda:hover
+{
+	color: #000;
+	opacity: 70%;
+}
