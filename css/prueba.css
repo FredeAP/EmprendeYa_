@@ -71,10 +71,9 @@
 	border-radius: 50%;
 	height: auto;
 	padding: 20px 25px;
-	background: rgba(60,60,60,0.8);
 	position: fixed;
-	top: 460px;
-	left: 93%;
+	top: 95%;
+	left: 97%;
 	z-index: 10;
 }
 
