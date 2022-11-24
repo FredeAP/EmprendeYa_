@@ -1,9 +1,15 @@
-const chatButton = document.querySelector('.chatbox__button');
-const chatContent = document.querySelector('.chatbox__support');
-const icons = {
-    isClicked: '<img src="./img/icons/chatbox-icon.svg" />',
-    isNotClicked: '<img src="./img/icons/chatbox-icon.svg" />'
+var check=document.querySelector(".check");
+check.addEventListener('click',idioma);
+
+function idioma()
+{
+    let id=check.checked;
+    if(id==true)
+    {
+        location.href="en/index.html";
+    }
+    else
+    {
+        location.href="../index.html"
+    }
 }
-const chatbox = new InteractiveChatbox(chatButton, chatContent, icons);
-chatbox.display();
-chatbox.toggleIcon(false, chatButton);
